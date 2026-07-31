@@ -121,15 +121,6 @@ New files are automatically detected and added to the database; duplicates are s
 - **Tailscale VPN over public exposure** — the server is never directly reachable from the public internet; only devices authenticated on the private Tailscale network can connect.
 - **Auto-incrementing primary keys** — `id` columns (not `name`) are used as unique identifiers, so records can be renamed without breaking references.
 
-## Roadmap / Future Improvements
-
-- [ ] Real movie thumbnails (currently placeholder)
-- [ ] Logout functionality
-- [ ] Configurable token expiration
-- [ ] HTTPS for internal traffic
-- [ ] Watch progress tracking
-- [ ] Search and filter by genre/collection
-
 ## License
 
 Personal project — not licensed for redistribution.
